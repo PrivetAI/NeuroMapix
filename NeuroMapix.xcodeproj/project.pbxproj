@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02750F769B40C4088C428F95 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F04056680326B339AD6D56 /* HomeView.swift */; };
+		0659540C5C173BB5B23D3362 /* DailyChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A24180B74DC35951F23F618 /* DailyChallenge.swift */; };
+		073AF1EACFB73434713DC76A /* Glyphs.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D6D45DA1DCF8AFAAB94800 /* Glyphs.swift */; };
+		19ADD27BE0467F628B6E96E6 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4866A7B876E57AF97CE9D535 /* Components.swift */; };
+		19B2C5468157968A1482522F /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0290BEF74FE8FE009BD1C03 /* LibraryView.swift */; };
+		26E9C689D70A5DBA60B42665 /* SeededRandom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90701E7501EE7DA6CBBF8C30 /* SeededRandom.swift */; };
+		2D74E40B55596F3F49C322AD /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8044E39D478EB3B22E2DA192 /* Models.swift */; };
+		32F6B2722D8680167E8C2BAA /* Feedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1B7F0A85E2D02105647C20 /* Feedback.swift */; };
+		515CCAC454604DE0D4B8A006 /* Charts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB879243E550A101D93F3DD /* Charts.swift */; };
+		57108F2A1584A32C4E8A9DD8 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9795AD158912DDDE29B11A78 /* GameViewModel.swift */; };
+		5B33444B21D7EA40FC901CEC /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27981CA4ED89352D84CFE0F8 /* StatisticsView.swift */; };
+		686FBE96B12DABDAFADEFBD8 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C14E76F561097015F0CBBAB /* ResultView.swift */; };
+		698A2E4313727114215FC060 /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB561D5C8B1324186AD1BF8 /* AppStore.swift */; };
+		72D3F7568EDC142B96AFCDDF /* DifficultyProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FA1206EACF69E8362C831B /* DifficultyProfile.swift */; };
+		7CCB5D64AAC7816385B393AD /* AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86565E7BFEB1A7D3C8BFE730 /* AchievementsView.swift */; };
+		8E85BE416B33AA3AF2603015 /* SessionLauncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2530EB44F9D5E507B28470DD /* SessionLauncher.swift */; };
+		927003F9A26D02115D8B8CB2 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC44E75C6906922E8A15D64 /* GameView.swift */; };
+		9E379EC8BE92C449EEEAE63E /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38EB2D87A7B19F01CF21774 /* RootView.swift */; };
+		A37A0E58526D60C5E8C11BBA /* PuzzleEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF094F722FE14DBEEC263717 /* PuzzleEngine.swift */; };
+		A4F6708E4BC9C096ACE9CDAD /* NeuroMapixApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42B1EC3A3E93CCB74D8D40C /* NeuroMapixApp.swift */; };
+		B876800239AF7B555EC944CB /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160D2456D1D04A6168E347CD /* BoardView.swift */; };
+		CBB5248465E5C755D4526950 /* LayoutCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6781D347ACAE07D9C7EB7E /* LayoutCatalog.swift */; };
+		CD40B3999A579DA3276245DC /* AchievementCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB79365644BC93B654C7731 /* AchievementCatalog.swift */; };
+		D95EE2D6C56BA408541F1E59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BE4F0797ADD0FDA100CB388 /* Assets.xcassets */; };
+		E6FA3985A1BF659EE061FA69 /* Grading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28812888C3D007CA90EBDE5A /* Grading.swift */; };
+		F56C5322C864A9A16309F024 /* GameSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F725B44CE580FA19E7EF094 /* GameSetupView.swift */; };
+		F8ACA8A5BA4228B24E5E463A /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF68140F7669D8B4BDFAE5A /* Theme.swift */; };
+		F9C223790C2F928A2F421D53 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF8409D54C1F250C79FDF12 /* Persistence.swift */; };
+		FB5C28B8BEBD2B1D6F11E12F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACE0DC8033219BE6559405B /* SettingsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0BE4F0797ADD0FDA100CB388 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0CB561D5C8B1324186AD1BF8 /* AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
+		160D2456D1D04A6168E347CD /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
+		2530EB44F9D5E507B28470DD /* SessionLauncher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionLauncher.swift; sourceTree = "<group>"; };
+		25FA1206EACF69E8362C831B /* DifficultyProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifficultyProfile.swift; sourceTree = "<group>"; };
+		27981CA4ED89352D84CFE0F8 /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
+		28812888C3D007CA90EBDE5A /* Grading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grading.swift; sourceTree = "<group>"; };
+		2C14E76F561097015F0CBBAB /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		3D6781D347ACAE07D9C7EB7E /* LayoutCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutCatalog.swift; sourceTree = "<group>"; };
+		4866A7B876E57AF97CE9D535 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		5ACE0DC8033219BE6559405B /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		60F04056680326B339AD6D56 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		7DB79365644BC93B654C7731 /* AchievementCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementCatalog.swift; sourceTree = "<group>"; };
+		8044E39D478EB3B22E2DA192 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		86565E7BFEB1A7D3C8BFE730 /* AchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsView.swift; sourceTree = "<group>"; };
+		8AC44E75C6906922E8A15D64 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		8F725B44CE580FA19E7EF094 /* GameSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSetupView.swift; sourceTree = "<group>"; };
+		90701E7501EE7DA6CBBF8C30 /* SeededRandom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeededRandom.swift; sourceTree = "<group>"; };
+		9795AD158912DDDE29B11A78 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		9A24180B74DC35951F23F618 /* DailyChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyChallenge.swift; sourceTree = "<group>"; };
+		9EB879243E550A101D93F3DD /* Charts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Charts.swift; sourceTree = "<group>"; };
+		A38EB2D87A7B19F01CF21774 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		AAF68140F7669D8B4BDFAE5A /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		AC98FB4646EDBFA0548A5032 /* NeuroMapix.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = NeuroMapix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0290BEF74FE8FE009BD1C03 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		C42B1EC3A3E93CCB74D8D40C /* NeuroMapixApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuroMapixApp.swift; sourceTree = "<group>"; };
+		DEF8409D54C1F250C79FDF12 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		E1D6D45DA1DCF8AFAAB94800 /* Glyphs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Glyphs.swift; sourceTree = "<group>"; };
+		EF094F722FE14DBEEC263717 /* PuzzleEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleEngine.swift; sourceTree = "<group>"; };
+		FB1B7F0A85E2D02105647C20 /* Feedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feedback.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		39F2CBD9897EF646BD3D50E6 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				7DB79365644BC93B654C7731 /* AchievementCatalog.swift */,
+				9A24180B74DC35951F23F618 /* DailyChallenge.swift */,
+				25FA1206EACF69E8362C831B /* DifficultyProfile.swift */,
+				28812888C3D007CA90EBDE5A /* Grading.swift */,
+				3D6781D347ACAE07D9C7EB7E /* LayoutCatalog.swift */,
+				8044E39D478EB3B22E2DA192 /* Models.swift */,
+				EF094F722FE14DBEEC263717 /* PuzzleEngine.swift */,
+				90701E7501EE7DA6CBBF8C30 /* SeededRandom.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		4A5BFD32072C2EE6C1D73C0E /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				0CB561D5C8B1324186AD1BF8 /* AppStore.swift */,
+				FB1B7F0A85E2D02105647C20 /* Feedback.swift */,
+				DEF8409D54C1F250C79FDF12 /* Persistence.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		6C30C088A31A2CAECA56FA15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC98FB4646EDBFA0548A5032 /* NeuroMapix.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8ABFB12279AFBE7FFFE8133E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				9795AD158912DDDE29B11A78 /* GameViewModel.swift */,
+				2530EB44F9D5E507B28470DD /* SessionLauncher.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		9FB27C2C332C63468B4DAA87 /* NeuroMapix */ = {
+			isa = PBXGroup;
+			children = (
+				39F2CBD9897EF646BD3D50E6 /* Core */,
+				4A5BFD32072C2EE6C1D73C0E /* Data */,
+				D143D8B3F6B48550F58E0A6D /* Design */,
+				8ABFB12279AFBE7FFFE8133E /* ViewModels */,
+				C39586EFF14D520FD4A9A526 /* Views */,
+				0BE4F0797ADD0FDA100CB388 /* Assets.xcassets */,
+				C42B1EC3A3E93CCB74D8D40C /* NeuroMapixApp.swift */,
+			);
+			path = NeuroMapix;
+			sourceTree = "<group>";
+		};
+		C39586EFF14D520FD4A9A526 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				86565E7BFEB1A7D3C8BFE730 /* AchievementsView.swift */,
+				160D2456D1D04A6168E347CD /* BoardView.swift */,
+				9EB879243E550A101D93F3DD /* Charts.swift */,
+				8F725B44CE580FA19E7EF094 /* GameSetupView.swift */,
+				8AC44E75C6906922E8A15D64 /* GameView.swift */,
+				60F04056680326B339AD6D56 /* HomeView.swift */,
+				C0290BEF74FE8FE009BD1C03 /* LibraryView.swift */,
+				2C14E76F561097015F0CBBAB /* ResultView.swift */,
+				A38EB2D87A7B19F01CF21774 /* RootView.swift */,
+				5ACE0DC8033219BE6559405B /* SettingsView.swift */,
+				27981CA4ED89352D84CFE0F8 /* StatisticsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CA6B57FAFE1D3970FACC3F04 = {
+			isa = PBXGroup;
+			children = (
+				9FB27C2C332C63468B4DAA87 /* NeuroMapix */,
+				6C30C088A31A2CAECA56FA15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D143D8B3F6B48550F58E0A6D /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				4866A7B876E57AF97CE9D535 /* Components.swift */,
+				E1D6D45DA1DCF8AFAAB94800 /* Glyphs.swift */,
+				AAF68140F7669D8B4BDFAE5A /* Theme.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3755876C3EEEA917D5FDDC05 /* NeuroMapix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FC4014D45C984E4CEF3A63F /* Build configuration list for PBXNativeTarget "NeuroMapix" */;
+			buildPhases = (
+				789E61B5AEDFF13104A385BD /* Sources */,
+				D7D681FDC22F57C621C8CD28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NeuroMapix;
+			packageProductDependencies = (
+			);
+			productName = NeuroMapix;
+			productReference = AC98FB4646EDBFA0548A5032 /* NeuroMapix.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		928FB4BAAC8DA134030E384F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					3755876C3EEEA917D5FDDC05 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 10C7457086962E86747DF81C /* Build configuration list for PBXProject "NeuroMapix" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CA6B57FAFE1D3970FACC3F04;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 6C30C088A31A2CAECA56FA15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3755876C3EEEA917D5FDDC05 /* NeuroMapix */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7D681FDC22F57C621C8CD28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D95EE2D6C56BA408541F1E59 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		789E61B5AEDFF13104A385BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD40B3999A579DA3276245DC /* AchievementCatalog.swift in Sources */,
+				7CCB5D64AAC7816385B393AD /* AchievementsView.swift in Sources */,
+				698A2E4313727114215FC060 /* AppStore.swift in Sources */,
+				B876800239AF7B555EC944CB /* BoardView.swift in Sources */,
+				515CCAC454604DE0D4B8A006 /* Charts.swift in Sources */,
+				19ADD27BE0467F628B6E96E6 /* Components.swift in Sources */,
+				0659540C5C173BB5B23D3362 /* DailyChallenge.swift in Sources */,
+				72D3F7568EDC142B96AFCDDF /* DifficultyProfile.swift in Sources */,
+				32F6B2722D8680167E8C2BAA /* Feedback.swift in Sources */,
+				F56C5322C864A9A16309F024 /* GameSetupView.swift in Sources */,
+				927003F9A26D02115D8B8CB2 /* GameView.swift in Sources */,
+				57108F2A1584A32C4E8A9DD8 /* GameViewModel.swift in Sources */,
+				073AF1EACFB73434713DC76A /* Glyphs.swift in Sources */,
+				E6FA3985A1BF659EE061FA69 /* Grading.swift in Sources */,
+				02750F769B40C4088C428F95 /* HomeView.swift in Sources */,
+				CBB5248465E5C755D4526950 /* LayoutCatalog.swift in Sources */,
+				19B2C5468157968A1482522F /* LibraryView.swift in Sources */,
+				2D74E40B55596F3F49C322AD /* Models.swift in Sources */,
+				A4F6708E4BC9C096ACE9CDAD /* NeuroMapixApp.swift in Sources */,
+				F9C223790C2F928A2F421D53 /* Persistence.swift in Sources */,
+				A37A0E58526D60C5E8C11BBA /* PuzzleEngine.swift in Sources */,
+				686FBE96B12DABDAFADEFBD8 /* ResultView.swift in Sources */,
+				9E379EC8BE92C449EEEAE63E /* RootView.swift in Sources */,
+				26E9C689D70A5DBA60B42665 /* SeededRandom.swift in Sources */,
+				8E85BE416B33AA3AF2603015 /* SessionLauncher.swift in Sources */,
+				FB5C28B8BEBD2B1D6F11E12F /* SettingsView.swift in Sources */,
+				5B33444B21D7EA40FC901CEC /* StatisticsView.swift in Sources */,
+				F8ACA8A5BA4228B24E5E463A /* Theme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0CBA7D0E78C3C47732175753 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		2FFFE8897CBDD7D71CCBFD3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = NeuroMapix/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.neuromapix.app;
+				PRODUCT_NAME = NeuroMapix;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		4EAB8C95D5B6157EDCA06C87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BA343E1664A28843E7B9BFDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = NeuroMapix/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.neuromapix.app;
+				PRODUCT_NAME = NeuroMapix;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10C7457086962E86747DF81C /* Build configuration list for PBXProject "NeuroMapix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EAB8C95D5B6157EDCA06C87 /* Debug */,
+				0CBA7D0E78C3C47732175753 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8FC4014D45C984E4CEF3A63F /* Build configuration list for PBXNativeTarget "NeuroMapix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA343E1664A28843E7B9BFDA /* Debug */,
+				2FFFE8897CBDD7D71CCBFD3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 928FB4BAAC8DA134030E384F /* Project object */;
+}
