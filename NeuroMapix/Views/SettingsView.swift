@@ -366,7 +366,7 @@ struct HelpView: View {
             Card(palette: palette) {
                 VStack(alignment: .leading, spacing: Metric.spaceS) {
                     SectionHeader(title: "Scoring", palette: palette)
-                    Text("score = (accuracy x 100) + (difficulty x 50) + (board size x 20) + (speed x 10)")
+                    Text("score = (accuracy x 100) + accuracy x ((difficulty x 50) + (board size x 20) + (speed x 10))")
                         .font(AppFont.captionBold)
                         .foregroundColor(palette.primary)
                     Text("accuracy = correct elements / total elements. Wrong cells subtract an element; traps in Danger Field subtract two. speed = max(1, recall limit - time used). 60% accuracy or better counts as a win and extends the streak.")

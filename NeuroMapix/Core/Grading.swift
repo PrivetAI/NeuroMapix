@@ -91,7 +91,7 @@ enum Grader {
     }
 }
 
-/// score = (accuracy x 100) + (difficulty x 50) + (boardSize x 20) + (speed x 10)
+/// score = (accuracy x 100) + accuracy x ((difficulty x 50) + (boardSize x 20) + (speed x 10))
 /// speed  = max(1, timeLimit - elapsedTime)
 enum ScoreEngine {
     static let winThreshold: Double = 0.6
@@ -103,7 +103,14 @@ enum ScoreEngine {
     static func score(accuracy: Double, difficulty: Int, boardDimension: Int,
                       timeLimit: Double, elapsed: Double) -> Int {
         let s = speed(timeLimit: timeLimit, elapsed: elapsed)
-        let raw = (accuracy * 100.0) + (Double(difficulty) * 50.0) + (Double(boardDimension) * 20.0) + (s * 10.0)
+        let bonus = (Double(difficulty) * 50.0) + (Double(boardDimension) * 20.0) + (s * 10.0)
+        // The spec sums the four terms outright, which makes accuracy the smallest
+        // of them: it is worth at most 100 against a bonus reaching ~950. Submitting
+        // a deliberately wrong answer in one second on a big board then outscores a
+        // slow perfect round (740 vs 410 on the numbers this app itself prints), so
+        // the leaderboard rewards failing fast. Scaling the bonus by accuracy leaves
+        // a perfect round exactly on the spec's formula and takes a blank round to 0.
+        let raw = (accuracy * 100.0) + (accuracy * bonus)
         return Int(raw.rounded())
     }
 

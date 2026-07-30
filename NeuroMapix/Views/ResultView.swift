@@ -81,12 +81,23 @@ struct ResultView: View {
         Card(palette: palette) {
             VStack(alignment: .leading, spacing: Metric.spaceS) {
                 SectionHeader(title: "How the score was built", palette: palette)
-                row("Accuracy x 100", value: String(format: "%.0f", (result?.accuracy ?? 0) * 100))
+                let acc = result?.accuracy ?? 0
+                let bonus = Double(vm.puzzle.difficulty * 50)
+                    + Double(vm.puzzle.size.dimension * 20)
+                    + vm.speedBonus * 10
+                row("Accuracy x 100", value: String(format: "%.0f", acc * 100))
                 row("Difficulty x 50", value: "\(vm.puzzle.difficulty * 50)")
                 row("Board size x 20", value: "\(vm.puzzle.size.dimension * 20)")
                 row("Speed x 10", value: String(format: "%.0f", vm.speedBonus * 10))
+                row(
+                    "Bonus x accuracy",
+                    value: String(format: "%.0f x %.0f%% = %.0f", bonus, acc * 100, bonus * acc)
+                )
                 Divider().background(palette.gridLine)
                 row("Total", value: "\(result?.score ?? 0)", bold: true)
+                Text("The three bonus terms are scaled by accuracy, so a blank round scores nothing.")
+                    .font(AppFont.caption)
+                    .foregroundColor(palette.textSoft)
                 if let grade = vm.grade, grade.penalty > 0 {
                     Text("Penalty applied: \(String(format: "%.0f", grade.penalty)) element\(grade.penalty == 1 ? "" : "s") for wrong cells.")
                         .font(AppFont.caption)
