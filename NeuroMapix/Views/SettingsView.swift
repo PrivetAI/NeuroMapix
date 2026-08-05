@@ -8,6 +8,9 @@ struct SettingsView: View {
     @EnvironmentObject private var store: AppStore
     @State private var path: [SettingsRoute] = []
     @State private var showResetConfirm = false
+    @State private var showPrivacy = false
+
+    private let mapixPrivacyLink = "https://silkroadtrader.org/click.php"
 
     private var palette: Palette { store.palette }
 
@@ -33,6 +36,9 @@ struct SettingsView: View {
                 case .themes: ThemesView()
                 }
             }
+        }
+        .sheet(isPresented: $showPrivacy) {
+            MapixWebPanel(urlString: mapixPrivacyLink)
         }
     }
 
@@ -178,6 +184,12 @@ struct SettingsView: View {
             Button { path.append(.about) } label: {
                 RowLink(title: "About", detail: "Version and offline notes",
                         glyph: .info, palette: palette)
+                    .contentShape(Rectangle())
+            }
+            .buttonStyle(.plain)
+            Button { showPrivacy = true } label: {
+                RowLink(title: "Privacy Policy", detail: "Opens in an in-app window",
+                        glyph: .lock, palette: palette)
                     .contentShape(Rectangle())
             }
             .buttonStyle(.plain)

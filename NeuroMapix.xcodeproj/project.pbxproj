@@ -36,6 +36,8 @@
 		F8ACA8A5BA4228B24E5E463A /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF68140F7669D8B4BDFAE5A /* Theme.swift */; };
 		F9C223790C2F928A2F421D53 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF8409D54C1F250C79FDF12 /* Persistence.swift */; };
 		FB5C28B8BEBD2B1D6F11E12F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACE0DC8033219BE6559405B /* SettingsView.swift */; };
+		A1B2C3D40000000000000002 /* MapixLoadingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D40000000000000001 /* MapixLoadingScreen.swift */; };
+		A1B2C3D40000000000000004 /* MapixWebPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D40000000000000003 /* MapixWebPanel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +71,8 @@
 		E1D6D45DA1DCF8AFAAB94800 /* Glyphs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Glyphs.swift; sourceTree = "<group>"; };
 		EF094F722FE14DBEEC263717 /* PuzzleEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleEngine.swift; sourceTree = "<group>"; };
 		FB1B7F0A85E2D02105647C20 /* Feedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feedback.swift; sourceTree = "<group>"; };
+		A1B2C3D40000000000000001 /* MapixLoadingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapixLoadingScreen.swift; sourceTree = "<group>"; };
+		A1B2C3D40000000000000003 /* MapixWebPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapixWebPanel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -138,6 +142,8 @@
 				8AC44E75C6906922E8A15D64 /* GameView.swift */,
 				60F04056680326B339AD6D56 /* HomeView.swift */,
 				C0290BEF74FE8FE009BD1C03 /* LibraryView.swift */,
+				A1B2C3D40000000000000003 /* MapixWebPanel.swift */,
+				A1B2C3D40000000000000001 /* MapixLoadingScreen.swift */,
 				2C14E76F561097015F0CBBAB /* ResultView.swift */,
 				A38EB2D87A7B19F01CF21774 /* RootView.swift */,
 				5ACE0DC8033219BE6559405B /* SettingsView.swift */,
@@ -252,6 +258,8 @@
 				02750F769B40C4088C428F95 /* HomeView.swift in Sources */,
 				CBB5248465E5C755D4526950 /* LayoutCatalog.swift in Sources */,
 				19B2C5468157968A1482522F /* LibraryView.swift in Sources */,
+				A1B2C3D40000000000000002 /* MapixLoadingScreen.swift in Sources */,
+				A1B2C3D40000000000000004 /* MapixWebPanel.swift in Sources */,
 				2D74E40B55596F3F49C322AD /* Models.swift in Sources */,
 				A4F6708E4BC9C096ACE9CDAD /* NeuroMapixApp.swift in Sources */,
 				F9C223790C2F928A2F421D53 /* Persistence.swift in Sources */,
